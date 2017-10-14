@@ -1,0 +1,13 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- .
+- location:
+    git: https://github.com/awakesecurity/liquidhaskell-cabal
+    commit: 8a34633ae8aa0388ab6e0183073bc75fd00a0453
+  extra-dep: true
+extra-deps:
+- liquidhaskell-cabal-0.1.2.0
+explicit-setup-deps:
+  "*": true
+resolver: lts-9.8
